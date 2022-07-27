@@ -1,5 +1,7 @@
 # FUNÇÕES
 
+https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/03-functions
+
 ##### O que é uma função? 
 
 Função nada mais é que uma máquina na qual você coloca coisas dentro e, a partir daí, essa máquina vai transformar essas coisas e depois vai cuspir algo.
