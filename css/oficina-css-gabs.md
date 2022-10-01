@@ -1,4 +1,4 @@
-OFICINA GABS - 30.09.22
+### **OFICINA GABS - 30.09.22**
 
 ### Pixel:
 
@@ -36,6 +36,7 @@ Tem que ter a tag viewport no html:
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 Nem sempre a responsividade tem a ver com o media queries. Você pode adaptar. Ex: blog do gabs. 
 
 ### GRID  x DISPLAY FLEX
@@ -47,21 +48,20 @@ Site para estudo de grid: https://www.origamid.com/projetos/css-grid-layout-guia
 ### Como adiciona classe utilizando o "createElement()"
 
 `<script>`
-    `const elemento = document.createElement('div');`
 
+`const elemento = document.createElement('div');`
 
-```js
-elemento.classList.add('minha-div-do-js');
-```
+`elemento.classList.add('minha-div-do-js');`
 
 `</script>`
 
-<style>
-    .minha-div-do-js {
-        background: tomato;
+`<style>`
 
+` .minha-div-do-js {` 
 
-    }
+`        background: tomato;`        
+
+`}`
 
 `</style>`
 
