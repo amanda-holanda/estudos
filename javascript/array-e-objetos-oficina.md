@@ -38,6 +38,16 @@ ARRAY
 
    parseInt: converte o tipo de dado ; por que isso funciona? isso só funciona porque essa funcao parseint foi criado por uma pessoa que disponibilizou pra gnt no javascript. Essa função, chamada de função nativa, funciona igual as funcoes que escrevemos. Portanto, é importante você saber: <u>Qual tipo de dado cada função JS funciona!</u>
 
+Métodos: são funções que conseguimos utilizar em arrays;
+O que fazer quando estou estudando/usando esses métodos de array:
+
+- 1. Quais são ps parametros que a função precisa pra funcionar;
+- 2. Qual é o retorno.
+
+Sort: método inplace, ou seja, é um método que modifica o array original.
+Slice: retorna uma cópia do array original.
+Reverse: não retorna nada.
+Reduce: reduz o que você passa para ele para um único valor.
     
 
     
