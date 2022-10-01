@@ -47,21 +47,17 @@ Site para estudo de grid: https://www.origamid.com/projetos/css-grid-layout-guia
 
 ### Como adiciona classe utilizando o "createElement()"
 
-`<script>`
+<script>
+    const elemento = document.createElement('div');
 
-`const elemento = document.createElement('div');`
+elemento.classList.add('minha-div-do-js');
+</script>
 
-`elemento.classList.add('minha-div-do-js');`
+<style>
+    .minha-div-do-js {
+        background: tomato;
+       }            
+</style>
 
-`</script>`
 
-`<style>`
-
-` .minha-div-do-js {` 
-
-`        background: tomato;`        
-
-`}`
-
-`</style>`
 
