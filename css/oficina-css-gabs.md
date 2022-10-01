@@ -59,5 +59,3 @@ elemento.classList.add('minha-div-do-js');
        }            
 </style>
 
-
-
