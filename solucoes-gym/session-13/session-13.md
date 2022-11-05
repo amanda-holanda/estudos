@@ -3,98 +3,122 @@
 #### Beginner
 
 - [CSS Cups and Balls](https://github.com/Laboratoria/SAP008-gym/blob/main/session-13/exercises/css-cups-and-balls/README.md): 
-    `display: flex;`
-    `justify-content: center;`
-    `align-items: center;`
-    `flex-wrap: wrap;`
-   `} .container {`
-    `width: 75%;`
-    `display: flex;`
-    `justify-content: space-evenly;`
-    `align-items: center;`
-   `} .first {`
-    `margin-top: 80px;`
-   `} .second {`
-    `margin-bottom: 80px;`
-   `}`
-   `.green {`
-    `background: #998235`
-
-  `;`
-   `} .yellow {`
-    `background: #F3AC3C`
-
-  `;`
-   `} .circle {`
-    `width: 50px;`
-    `height: 50px;`
-    `border-radius: 50%;`
-   `} .half-circle {`
-    `width: 50px;`
-    `height: 50px;`
-    `border-radius: 50px 50px 0 0;`
-   `} .half-circle {`
-    `width: 50px;`
-    `height: 50px;`
-    `border-radius: 50px 50px 0 0;`
-   `}`
-   `.back {`
-    `border-radius: 0 0 50px 50px;`
-   `}</style>`
-
-  
-
+    
+    ```css
+    <section class="container first">
+      <div class="circle green"></div>
+     <div class="half-circle yellow "></div>
+     <div class="half-circle green"></div>
+     <div class="circle yellow"></div>
+   </section>
+   <section class="container second">
+     <div class="half-circle back yellow"></div>
+     <div class="circle green"></div>
+     <div class="circle yellow"></div>
+     <div class="half-circle back green"></div>
+   </section>
+   <style>
+     body {
+        margin: 0;
+      height: 100%;
+      background: #1A4341;
+      display: flex;
+        justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .container {
+      width: 75%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .first {
+      margin-top: 80px;
+    }
+    .second {
+      margin-bottom: 80px;
+    }
+    .green {
+      background: #998235;
+      }
+    .yellow {
+        background: #F3AC3C;
+      }
+      .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .half-circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px 50px 0 0;
+      }
+      .half-circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px 50px 0 0;
+      }
+      .back {
+        border-radius: 0 0 50px 50px;
+      }
+    </style>
+    ```
+    
 - [CSS Smiley](https://github.com/Laboratoria/SAP008-gym/blob/main/session-13/exercises/css-smiley/README.md):
 
-  `<section class="container">`
-   `<div class="eyes"></div>`
-   `<div class="eyes"></div>`
-  `</section><section class="container-smile">`
-   `<div class="eyes back"></div>`
-  `</section><style>`
-   `body {`
-    `margin: 0;`
-    `height: 100%;`
-    `background: #6592CF`
-
-  `;`
-    `display: flex;`
-    `justify-content: center;`
-    `align-items: center;`
-    `flex-wrap: wrap;`
-   `} .container {`
-    `display: flex;`
-    `justify-content: center;`
-    `align-items: center;`
-    `width: 100%;`
-    `gap: 80px;`
-   `} .container-smile {`
-    `width: 100%;`
-    `display: flex;`
-    `justify-content: center;`
-    `align-items: center;`
-    `margin-top: -100px;`
-   `} .eyes {`
-    `width: 80px;`
-    `height: 80px;`
-    `background: #6592CF`
-
-  `;`
-    `border-radius: 50%;`
-    `border: 20px solid #060F55`
-
-  `;`
-    `border-bottom-color: #6592CF`
-
-  `;`
-    `border-left-color: #6592CF`
-
-  `;`
-    `transform: rotate(-45deg);`
-   `} .back {`
-    `transform: rotate(135deg);`
-   `}`
-  `</style>`
+  ```css
+  <section class="container">
+   <div class="eyes"></div>
+   <div class="eyes"></div>
+  </section><section class="container-smile">
+   <div class="eyes back"></div>
+  </section><style>
+  
+   body {
+    margin: 0;
+    height: 100%;
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   } 
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 80px;
+   } 
+  
+  .container-smile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+   }
+  
+  .eyes {
+    width: 80px;
+    height: 80px;
+    background: #6592CF;
+    border-radius: 50%;
+    border: 20px solid #060F55;
+    border-bottom-color: #6592CF;
+    border-left-color: #6592CF;
+    transform: rotate(-45deg);
+   }
+  
+  .back {
+    transform: rotate(135deg);
+   }
+  
+  </style>
+  ```
 
 #### Intermediate
 
@@ -221,21 +245,20 @@
 
 - [Front Again](https://github.com/Laboratoria/SAP008-gym/blob/main/session-13/exercises/front-again/README.md):
 
-  `function frontAgain(str){`
-    `const primeiraPosicao = str[0];`
-    `const segundaPosicao = str[1];`
-    `const ultimaPosicao = str[str.length-1];`
-    `const penultimaPosicao = str[str.length-2];`
-    `const tamanho = str.length;`
-
-    `if(tamanho==0) {`
-    `return false}   
-    else if(primeiraPosicao == penultimaPosicao &`
-       `segundaPosicao == ultimaPosicao) {`
-    `return true}`
-    `else {`
-    `return false}   
-  }`
+  ```javascript
+  function frontAgain(str){
+    const primeiraPosicao = str[0];
+    const segundaPosicao = str[1];
+    const ultimaPosicao = str[str.length-1];
+    const penultimaPosicao = str[str.length-2];
+    const tamanho = str.length;
+  
+    if(tamanho==0) {
+    return false } else if(primeiraPosicao == penultimaPosicao & segundaPosicao == ultimaPosicao) {
+    return true} else {
+    return false}   
+  }
+  ```
 
 - [MaxMod5](https://github.com/Laboratoria/SAP008-gym/blob/main/session-13/exercises/max-mod-5/README.md)
 
