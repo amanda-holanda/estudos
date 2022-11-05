@@ -3,7 +3,7 @@
 #### Beginner
 
 - [CSS Cups and Balls](https://github.com/Laboratoria/SAP008-gym/blob/main/session-13/exercises/css-cups-and-balls/README.md): 
-    
+  
     ```css
     <section class="container first">
       <div class="circle green"></div>
@@ -64,8 +64,8 @@
         border-radius: 0 0 50px 50px;
       }
     </style>
-    ```
-    
+   ```
+   
 - [CSS Smiley](https://github.com/Laboratoria/SAP008-gym/blob/main/session-13/exercises/css-smiley/README.md):
 
   ```css
@@ -261,6 +261,23 @@
   ```
 
 - [MaxMod5](https://github.com/Laboratoria/SAP008-gym/blob/main/session-13/exercises/max-mod-5/README.md)
+
+  ```css
+  function maxMod5(a, b){
+    const restoA = a % 5;
+    const restoB = b % 5;
+    
+    if(a == b) {
+    return 0;
+    } else {
+        if ((restoA == restoB & b > a) || (restoA !== restoB & a > b)) {
+          return a;
+        } else if(( restoA == restoB & a > b) || (restoA !== restoB & b > a)) {
+          return b;
+        } 
+      }    
+  }
+  ```
 
 #### Beginner
 
