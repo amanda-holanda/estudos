@@ -144,6 +144,18 @@
 #### Beginner
 
 - [Elevator Distance](https://github.com/Laboratoria/SAP008-gym/blob/main/session-14/exercises/elevator-distance/README.md)
+
+  ```javascript
+  function elevatorDistance(array) {
+    let sum = 0;
+    for (let i = 0; i < array.length-1; i++) {
+  		let difference = Math.abs(array[i] - array[i+1]);
+  	 sum += difference;
+    }
+   return sum;
+  }
+  ```
+
 - [Closest Elevator](https://github.com/Laboratoria/SAP008-gym/blob/main/session-14/exercises/closest-elevator/README.md)
 
 #### Intermediate
