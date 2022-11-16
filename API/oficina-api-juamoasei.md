@@ -1,8 +1,10 @@
-Oficina APi e Fectch() - Ju Amoasei
-Acesse ela <a url="https://www.youtube.com/watch?v=QcGp2n1PUTE">aqui</a>.
+# Oficina APi e Fectch() - Ju Amoasei
+
+Acesse ela [aqui](https://www.youtube.com/watch?v=QcGp2n1PUTE).
 
 
-1. O que é API?
+## 1. O que é API?
+
 Interface de aplicação. 
 
 INTERFACE:  é um ponto de contato entre duas coisas, que faz com que essas coisas se unam.
@@ -12,7 +14,7 @@ INTERFACE:  é um ponto de contato entre duas coisas, que faz com que essas cois
  
  Ex: VIACEP - API que disponibiliza um serviço fornecer ceps.
  
- 2. Como usar?
+ ## 2. Como usar?
  
 Obs: API do tipo rest (usada no burguer queen): acessa um endereço e ao inves de vir uma pagina, vem um Json, que vcs podem pegar esse json e usar no projeto de vcs. 
  
@@ -24,7 +26,8 @@ Obs: API do tipo rest (usada no burguer queen): acessa um endereço e ao inves d
  
  Cada API tem uma forma de funcionar. É necessário ler a sua documentação para entender a consumí-la.
  
- 3. Qual a diferença para banco de dados?
+ ## 3. Qual a diferença para banco de dados?
+ 
  OBS: Firebase abstrai essas coisas(banco de dados e api), coloca essa logica de consumo de API por baixo dos panos. 
  
 Banco é o coração da aplicação, é onde ficam guardados todos os dados. O front-end não acessa o banco de dados diretamente. Existe entre a base dados e e o front-end, existe o back-end, que é quem monta as APIs. Da mesma forma que o front-end é uma interface entre o produto inteiro e o usuário, o back-end é uma interface entre a data-base e a aplicação. 
