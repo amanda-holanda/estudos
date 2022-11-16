@@ -29,7 +29,7 @@ Obs: API do tipo rest (usada no burguer queen): acessa um endereço e ao inves d
  
 Banco é o coração da aplicação, é onde ficam guardados todos os dados. O front-end não acessa o banco de dados diretamente. Existe entre a base dados e e o front-end, existe o back-end, que é quem monta as APIs. Da mesma forma que o front-end é uma interface entre o produto inteiro e o usuário, o back-end é uma interface entre a data-base e a aplicação. 
 
-<img src="/data-api-front.png" alt="desenho da conexao entre base de dados, back e front"/>
+<img src="data-api-front.png" alt="desenho da conexao entre base de dados, back e front"/>
 
 Existe comandos que fazemos para acessar o banco de dados por meio de consulta. O que api/backend faz é -> quando aperto no botão pra acessar um produto no front-end, ele é transformado numa consulta ao banco de dados, o banco de dados devolve essa informação; a API mastiga essas informações do banco, cospe um JSON ; e esse JSON volta pro front-end e vcs colocam esse JSON na pagina, em formato de array, objetos, etc. Isso é o resultado do fetch: qnd vc dá um fetch ele bate na API, bate no banco, o banco retorna e a API retorna o resultado para vocês e isso vai vir em formato de json. 
 
