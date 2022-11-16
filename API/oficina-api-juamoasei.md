@@ -1,4 +1,4 @@
-# Oficina APi e Fectch() - Ju Amoasei
+# Oficina APi e Fetch() - Ju Amoasei
 
 Acesse ela [aqui](https://www.youtube.com/watch?v=QcGp2n1PUTE).
 
