@@ -36,6 +36,31 @@ Banco é o coração da aplicação, é onde ficam guardados todos os dados. O f
 
 Existe comandos que fazemos para acessar o banco de dados por meio de consulta. O que api/backend faz é -> quando aperto no botão pra acessar um produto no front-end, ele é transformado numa consulta ao banco de dados, o banco de dados devolve essa informação; a API mastiga essas informações do banco, cospe um JSON ; e esse JSON volta pro front-end e vcs colocam esse JSON na pagina, em formato de array, objetos, etc. Isso é o resultado do fetch: qnd vc dá um fetch ele bate na API, bate no banco, o banco retorna e a API retorna o resultado para vocês e isso vai vir em formato de json. 
 
+## 4. Sobre o fetch()
+
+fetch = buscar, trazer.
+
+O retorno do fetch() é sempre uma promessa, que tem que ser resolvida. Por isso que no exemplo abaixo utiliza-se o o then. Dentro do then, resolve as promessas da resposta da requisição. Então, o fetch devolve um objeto promessa, o then resolve essa promessa e ai dps a gnt consegue fazer o que a gente quer com os dados. 
+
+Ex:
+
+const myImage = document.querySelector('img');
+
+let myRequest = new Request('flowers.jpg');
+
+fetch(myRequest)
+.then(function(response) {
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  return response.blob();
+})
+.then(function(response) {
+  let objectURL = URL.createObjectURL(response);
+  myImage.src = objectURL;
+});
+
+
  
  
  
