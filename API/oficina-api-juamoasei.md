@@ -44,6 +44,7 @@ O retorno do fetch() é sempre uma promessa, que tem que ser resolvida. Por isso
 
 Ex:
 
+````javascript
 const myImage = document.querySelector('img');
 
 let myRequest = new Request('flowers.jpg');
@@ -59,7 +60,7 @@ fetch(myRequest)
   let objectURL = URL.createObjectURL(response);
   myImage.src = objectURL;
 });
-
+````
 
  
  
