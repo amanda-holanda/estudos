@@ -1,0 +1,14 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Lato;
+    
+}
+
+:root {
+    --dark-blue: #2c3e50;
+    --light-blue: #18bc9c;
+    --grey: #212529;
+}
