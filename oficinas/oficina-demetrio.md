@@ -2,7 +2,7 @@
 
 - Importante que o linkedin tenha coesão e coerência. Tirar do linkedin o que você "trabalhou como manobrista" e espremer e colocar o que é essencial e estratégico ali.
 
-## 1. linkedin: caroline jandoso.
+## 1. Linkedin: caroline jandoso.
 
 - About: primeira coisa que o recrutador vai ler a primeira frase (tem que ser a melhor).
 Na segunda frase, ela coloca o background dela e a conexão com a programação.
