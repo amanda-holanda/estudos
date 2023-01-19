@@ -27,3 +27,20 @@ componentes."
 - cortar no segundo parágrafo: "migrei para a tecnologia, formei em direito." - seja objetiva.
 - terceiro parágrafro: está ok parau um júnior.
 - quarto parágrafo: tem que tá no primeiro paragrafo. Foca no que você quer: engenharia, ux/ui design, front end?. Para inicio tenha um foco, dps vc troca nao tem problema.
+
+11.01.22
+
+## 4. Revisão:
+- colocar o junior no titulo
+- adicionar projetos no curriculo: 3 pequenas linhas descrevendo. falar dos resultados
+-  ta tudo bem ter pouca experienca em junior.
+- ter foco em uma socoisa: frontend por ex. ser especifico chega la mais rapido.
+- colocar mais detalhes no que fui fez: recomendacao do professor, o que eu produzi, ganhei premio. quais foram meus resulstados? colocar no lugar da descricao da laboratoria.
+- sobre mim: não guarda a melhor parte pro final! coloca o link com a tecnologia no começo.
+- formatação de currículo: melhores curriculos são os faceis de ler. tipo um prefácio fácil de ler. currículos simples e diretos são bem melhores. 
+- curriculo: simples, sem foto, sem informações pessoais. se inspirar no do will.
+- pedir o curriculo do will para se inspirar nele.
+- entrar em contato com o demetrio pedindo feedback.
+- colocar certificados na area do curriculo.
+- AJUDA MUITO: certificar na tecnologia no linkedin.
+- AJUDA MUITO: recomendações para pessoas. ter 5 recomendações a mais ajuda o algoritmo. enviar para ju, debora, isa brambilla e monnalisa.
