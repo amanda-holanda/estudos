@@ -43,4 +43,4 @@ componentes."
 - entrar em contato com o demetrio pedindo feedback.
 - colocar certificados na area do curriculo.
 - AJUDA MUITO: certificar na tecnologia no linkedin.
-- AJUDA MUITO: recomendações para pessoas. ter 5 recomendações a mais ajuda o algoritmo. enviar para ju, debora, isa brambilla e monnalisa.
+- AJUDA MUITO: recomendações para pessoas. ter 5 recomendações a mais ajuda o algoritmo. 
