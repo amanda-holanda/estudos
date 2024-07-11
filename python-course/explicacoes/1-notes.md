@@ -1,4 +1,4 @@
-- [Link curso](https://www.youtube.com/watch?v=yTQDbqmv8Ho)
+- [Link curso](https://www.youtube.com/watch?vQDbqmv8Ho)
 
 Introdução ao Pyhton
 
@@ -22,7 +22,15 @@ Introdução ao Pyhton
 - '/': divisão que retorna float
 - '//': divisão que retorna inteiro
 
-[ ] Exercício 03 
+[X] Exercício 03 
 [X] Exercício 04
 
-- Parei no min 1:08
+# 1.3 Tipos booleanos (true, false, None e conectivos)
+- >,>=,<, <=, ==, !=
+Obs: 1 == 1.0 -> true / 1 is 1.0 -> false
+
+- and, or, not
+
+# 1.4 Estruturas de decisão - if, elif, else
+
+Parei no 1:46 - condicoes falsas
